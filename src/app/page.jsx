@@ -11,7 +11,7 @@ const HomePage = () => {
         action=""
         onSubmit={async (e) => {
           e.preventDefault();
-
+  
           const form = new FormData();
           form.set("file", file);
 
